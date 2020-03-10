@@ -1,6 +1,5 @@
 from urllib.request import urlopen as uReq
 from bs4 import BeautifulSoup as soup
-import re
 
 filename = "medicine_details.csv"
 f = open(filename, 'w')
